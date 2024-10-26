@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(184, 187, 192);
+  header {
+    .cont {
+      @include cont;
+      justify-content: space-between;
+      justify-content: center;
+      padding: 20px 0px;
+      h1 {
+        font-size: 53px;
+
+        color: black;
+      }
+    }
+  }
+}
+.s-1 {
+  .cont {
+    @include cont;
+    justify-content: space-around;
+    .main {
+      border: 5px solid rgb(83, 83, 83);
+      background-color: rgb(151, 149, 149);
+      border-radius: 20px;
+      width: 90%;
+
+      p {
+        text-indent: 30px;
+        padding: 7px;
+        font-size: 20px;
+        color: black;
+        line-height: 30px;
+      }
+    }
+  }
+}
