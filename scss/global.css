@@ -177,4 +177,64 @@ body header .cont h1 {
   font-size: 20px;
   color: black;
   line-height: 30px;
+}
+
+.s-2 {
+  margin-top: 60px;
+}
+.s-2 .cont {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.s-2 .cont img {
+  width: 600px;
+  height: 900px;
+  border-radius: 17px;
+}
+
+img:hover { /* IE 9 */ /* Safari 3-8 */
+  transform: scale(1.03);
+}
+
+.s-3 {
+  margin-top: 60px;
+}
+.s-3 .cont {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.s-3 .cont .top {
+  border: 5px solid rgb(83, 83, 83);
+  background-color: rgb(151, 149, 149);
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-3 .cont .top p {
+  text-indent: 30px;
+  padding: 5px 0px;
+  font-size: 20px;
+  color: black;
+  line-height: 30px;
+}
+.s-3 .cont .bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.s-3 .cont .bottom .poto {
+  width: 250px;
+  border-radius: 20px;
+  height: 250px;
 }/*# sourceMappingURL=global.css.map */
