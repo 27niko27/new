@@ -81,9 +81,36 @@ img:hover {
       justify-content: space-between;
       width: 100%;
       .poto {
-        width: 250px;
+        width: 260px;
         border-radius: 20px;
         height: 250px;
+      }
+    }
+  }
+}
+footer {
+  width: 100%;
+  height: 340px;
+  margin-top: 40px;
+  background-color: rgb(49, 47, 47);
+  .cont {
+    @include cont;
+    justify-content: space-around;
+    .left,
+    .right {
+      padding: 40px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: space-between;
+      flex-direction: column;
+      gap: 20px;
+      p {
+        color: white;
+        font-size: 30px;
+      }
+      h1 {
+        color: white;
+        font-size: 55px;
       }
     }
   }

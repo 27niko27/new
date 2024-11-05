@@ -234,7 +234,40 @@ img:hover { /* IE 9 */ /* Safari 3-8 */
   width: 100%;
 }
 .s-3 .cont .bottom .poto {
-  width: 250px;
+  width: 260px;
   border-radius: 20px;
   height: 250px;
+}
+
+footer {
+  width: 100%;
+  height: 340px;
+  margin-top: 40px;
+  background-color: rgb(49, 47, 47);
+}
+footer .cont {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+footer .cont .left,
+footer .cont .right {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .cont .left p,
+footer .cont .right p {
+  color: white;
+  font-size: 30px;
+}
+footer .cont .left h1,
+footer .cont .right h1 {
+  color: white;
+  font-size: 55px;
 }/*# sourceMappingURL=global.css.map */
